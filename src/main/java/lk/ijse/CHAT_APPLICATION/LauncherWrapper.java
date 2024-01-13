@@ -5,4 +5,7 @@ package lk.ijse.CHAT_APPLICATION;
 */
 
 public class LauncherWrapper {
+    public static void main(String[] args) {
+        Launcher.main(args);
+    }
 }
