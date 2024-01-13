@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.CHAT_APPLICATION.controller.ServerFormController">
+   <children>
+      <Label layoutX="250.0" layoutY="10.0" prefHeight="33.0" prefWidth="92.0" text="SERVER">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtArea" layoutX="13.0" layoutY="49.0" prefHeight="283.0" prefWidth="578.0" />
+      <TextField fx:id="txtFld" layoutX="16.0" layoutY="345.0" prefHeight="43.0" prefWidth="456.0" />
+      <JFXButton fx:id="btnSend" layoutX="497.0" layoutY="344.0" onAction="#btnSendOnAction" prefHeight="43.0" prefWidth="92.0" stylesheets="@../css/style.css" text="Send">
+         <styleClass>
+            <String fx:value="btnSend" />
+            <String fx:value="btnSend" />
+         </styleClass>
+      </JFXButton>
+   </children>
+</AnchorPane>
