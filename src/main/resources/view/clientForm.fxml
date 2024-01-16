@@ -18,7 +18,7 @@
       </Label>
       <TextArea fx:id="txtArea" layoutX="10.0" layoutY="53.0" prefHeight="283.0" prefWidth="578.0" />
       <TextField fx:id="txtFld" layoutX="13.0" layoutY="349.0" prefHeight="43.0" prefWidth="456.0" />
-      <JFXButton fx:id="btnSend" layoutX="494.0" layoutY="348.0" onAction="#btnSendOnAction" prefHeight="43.0" prefWidth="92.0" stylesheets="@../css/style.css" text="Button">
+      <JFXButton fx:id="btnSend" layoutX="494.0" layoutY="348.0" onAction="#btnSendOnAction" prefHeight="43.0" prefWidth="92.0" stylesheets="@../css/style.css" text="Send">
          <styleClass>
             <String fx:value="btnSend" />
             <String fx:value="btnSend" />
